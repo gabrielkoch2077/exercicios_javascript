@@ -28,7 +28,7 @@ console.log(multiplicacao);
 }
 
 let n1=parseFloat(prompt("Digite seu primeiro número"));
-let n1=parseFloat(prompt("Digite seu segundo número"));
+let n2=parseFloat(prompt("Digite seu segundo número"));
 
 calcular (n1, n2);
 
