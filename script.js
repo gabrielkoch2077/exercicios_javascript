@@ -41,4 +41,12 @@ while(numero>=1){
     numero --;
 }
 
+function inverterTexto(texto) {
+    
+    return texto.split('').reverse().join('');
+}
 
+
+console.log(inverterTexto("JavaScript")); 
+console.log(inverterTexto("Olá mundo!")); 
+console.log(inverterTexto("12345"));      
