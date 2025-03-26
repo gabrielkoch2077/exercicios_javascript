@@ -50,3 +50,10 @@ function inverterTexto(texto) {
 console.log(inverterTexto("JavaScript")); 
 console.log(inverterTexto("Olá mundo!")); 
 console.log(inverterTexto("12345"));      
+
+function contarCaracteres(str) {
+
+    return str.length;
+}
+
+console.log(contarCaracteres("gabriel"));
