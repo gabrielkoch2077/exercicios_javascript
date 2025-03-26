@@ -81,3 +81,15 @@ function mensagemPersonalizada(nome, mensagem = "Olá!") {
 
 mensagemPersonalizada("João"); 
 mensagemPersonalizada("Gabriel", "Bem-vindo,"); 
+
+let primeiroNumero = parseInt(prompt('Escolha o primeiro numero'));
+let segundoNumero = parseInt(prompt('Escolha o segundo numero'));
+let terceiroNumero = parseInt(prompt('Escolha o terceiro numero'));
+
+function media(a, b, c) {
+  return (a + b + c) / 3;
+}
+
+let resultado = media(primeiroNumero, segundoNumero, terceiroNumero);
+
+console.log(resultado);
