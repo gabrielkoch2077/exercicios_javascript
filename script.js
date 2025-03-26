@@ -35,21 +35,21 @@ calcular(n1, n2);
 
 let numero = 10;
 let delay = 0;
-while(numero>=1){
+while (numero >= 1) {
 
     console.log(numero);
-    numero --;
+    numero--;
 }
 
 function inverterTexto(texto) {
-    
+
     return texto.split('').reverse().join('');
 }
 
 
-console.log(inverterTexto("JavaScript")); 
-console.log(inverterTexto("Olá mundo!")); 
-console.log(inverterTexto("12345"));      
+console.log(inverterTexto("JavaScript"));
+console.log(inverterTexto("Olá mundo!"));
+console.log(inverterTexto("12345"));
 
 function contarCaracteres(str) {
 
@@ -59,16 +59,16 @@ function contarCaracteres(str) {
 console.log(contarCaracteres("gabriel"));
 
 
-class Carro{
+class Carro {
 
-constructor(marca,modelo, ano){
-    this.marca = marca;
-    this.modelo = modelo;
-    this.ano = ano
-}
+    constructor(marca, modelo, ano) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano
+    }
 
-exibirinformacoes(){
-    console.log(`carro: ${this.marca} ${this.modelo} ${this.ano}`);
+    exibirinformacoes() {
+        console.log(`carro: ${this.marca} ${this.modelo} ${this.ano}`);
     }
 
 }
@@ -79,17 +79,28 @@ function mensagemPersonalizada(nome, mensagem = "Olá!") {
     console.log(`${mensagem} ${nome}`);
 }
 
-mensagemPersonalizada("João"); 
-mensagemPersonalizada("Gabriel", "Bem-vindo,"); 
+mensagemPersonalizada("João");
+mensagemPersonalizada("Gabriel", "Bem-vindo,");
 
 let primeiroNumero = parseInt(prompt('Escolha o primeiro numero'));
 let segundoNumero = parseInt(prompt('Escolha o segundo numero'));
 let terceiroNumero = parseInt(prompt('Escolha o terceiro numero'));
 
 function media(a, b, c) {
-  return (a + b + c) / 3;
+    return (a + b + c) / 3;
 }
 
 let resultado = media(primeiroNumero, segundoNumero, terceiroNumero);
 
 console.log(resultado);
+
+
+for (let i = 1; i <= 20; i++) {
+
+    if (i % 3 === 0) {
+        console.log(i + ": Múltiplo de 3");
+    } else {
+        console.log(i + ": Não múltiplo de 3");
+    }
+
+}
