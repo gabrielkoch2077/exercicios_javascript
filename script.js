@@ -74,3 +74,10 @@ exibirinformacoes(){
 }
 const meuCarro = new Carro('Volkswagen', 'Beetle', '1963');
 meuCarro.exibirinformacoes();
+
+function mensagemPersonalizada(nome, mensagem = "Olá!") {
+    console.log(`${mensagem} ${nome}`);
+}
+
+mensagemPersonalizada("João"); 
+mensagemPersonalizada("Gabriel", "Bem-vinda,"); 
