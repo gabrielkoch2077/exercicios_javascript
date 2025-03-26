@@ -57,3 +57,20 @@ function contarCaracteres(str) {
 }
 
 console.log(contarCaracteres("gabriel"));
+
+
+class Carro{
+
+constructor(marca,modelo, ano){
+    this.marca = marca;
+    this.modelo = modelo;
+    this.ano = ano
+}
+
+exibirinformacoes(){
+    console.log(`carro: ${this.marca} ${this.modelo} ${this.ano}`);
+    }
+
+}
+const meuCarro = new Carro('Volkswagen', 'Beetle', '1963');
+meuCarro.exibirinformacoes();
