@@ -80,4 +80,4 @@ function mensagemPersonalizada(nome, mensagem = "Olá!") {
 }
 
 mensagemPersonalizada("João"); 
-mensagemPersonalizada("Gabriel", "Bem-vinda,"); 
+mensagemPersonalizada("Gabriel", "Bem-vindo,"); 
